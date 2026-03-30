@@ -1,0 +1,14 @@
+{
+  "name": "allmovieland-addon",
+  "version": "1.0.0",
+  "description": "AllMovieLand Stremio Addon",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "axios": "^1.6.0",
+    "cheerio": "^1.0.0",
+    "stremio-addon-sdk": "^1.0.0"
+  }
+}
