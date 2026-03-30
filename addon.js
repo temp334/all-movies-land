@@ -8,7 +8,8 @@ const builder = new addonBuilder({
   name: "AllMovieLand PRO",
   resources: ["stream"],
   types: ["movie", "series"],
-  idPrefixes: ["tt"]
+  idPrefixes: ["tt"],
+  catalogs: [] // 🔥 IMPORTANT FIX
 })
 
 let sessionCookie = null
